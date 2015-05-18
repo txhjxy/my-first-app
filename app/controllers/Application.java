@@ -34,7 +34,7 @@ public class Application extends Controller {
 	    Random rnd = new Random();
 
 	    Task task   = new Task();
-	    task.name   = "ピザを" + rnd.nextInt(10) + "枚食べる";
+	    task.name   = "コーラを" + rnd.nextInt(10) + "枚食べる";
 	    task.period = new Date();
 	    task.save();
 
